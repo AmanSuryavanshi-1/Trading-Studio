@@ -6,8 +6,8 @@ import { CalendarIcon, TrendingUpIcon } from "lucide-react";
 
 export function Hero() {
   // Calculator state
-  const [startDate, setStartDate] = useState("01/01/2024");
-  const [endDate, setEndDate] = useState("01/03/2024");
+  const [startDate, setStartDate] = useState("01/01/2025");
+  const [endDate, setEndDate] = useState("01/03/2025");
   const [initialInvestment, setInitialInvestment] = useState(10000);
   const [monthlyGrowth, setMonthlyGrowth] = useState(5);
   
